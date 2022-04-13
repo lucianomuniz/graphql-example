@@ -6,7 +6,7 @@ const orders = [
       {
         product: {
           id: "redshoe",
-          description: "Old Red Shoe",
+          description: "Old Red Shoes",
           price: 45.11,
         },
         quantity: 2,
@@ -16,7 +16,6 @@ const orders = [
 ];
 
 function getAllOrders() {
-  console.log("Getting orders...");
   return orders;
 }
 
